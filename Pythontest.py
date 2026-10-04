@@ -29,7 +29,6 @@ while remaining_attempts > 0:
         else:
             print("Hint: Ice cold!")
 
-        # Clean text symbol system using string multiplication
         hearts = "<3 " * remaining_attempts
         print(f"Remaining lives: {hearts.strip()}")
 
